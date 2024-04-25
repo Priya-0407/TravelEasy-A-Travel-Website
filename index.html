@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--====SWIPER CSS--=====================================-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--====REMIX ICON--=====================================-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--====FAVICON--=====================================-->
+
+
+    <!--====CSS STYLESHEET================================== -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>TravelEasy</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">TravelEasy</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#discover" class="nav-link">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#destination" class="nav-link">Destination</a>
+                    </li>
+                </ul>
+
+                <div class="nav-dark">
+                    <!-- <span class="change-theme-name">Dark Mode</span> -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav-close" id="nav-close"></i>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <!-- =============HOME==================================================================================== -->
+        <section class="home" id="home">
+            <img src="assests/img-1.jpg" alt="" class="home-img">
+
+            <div class="home-container container grid">
+                <div class="home-data">
+                    <span class="home-data-subtitle">Plan your Vacation</span>
+                    <h1 class="home-data-title">Explore the<br>Beauty of<b> World</b></h1>
+                    <a href="#" class="button">Explore</a>
+                </div>
+
+
+                <div class="home-info">
+                    <div>
+                        <span class="home-info-title">5 Best Places to Visit</span>
+                        <a href="#" class="button button--flex button--link home-info-button">
+                            Know More <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home-info-overlay">
+                        <img src="assests/img-2.jpg" alt="" class="home-info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- =============ABOUT==================================================================================== -->
+        <section class="about section" id="about">
+            <div class="about-container container grid">
+                <div class="about-data">
+                    <h2 class="section-title about-title">More Information<br>About Best Destinations</h2>
+                    <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+                        aliquid ab iure assumenda inventore magni unde placeat recusandae, quidem beatae porro ullam
+                        sequi natus illo error provident. Laboriosam, eaque expedita?</p>
+                    <a href="#" class="button about-button">Book now</a>
+                </div>
+
+                <div class="about-img">
+                    <div class="about-img-overlay">
+                        <img src="assests/about-1.jpg" alt="" class="about-img-one">
+                    </div>
+                    <div class="about-img-overlay">
+                        <img src="assests/about-2.jpg" alt="" class="about-img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============DISCOVER========================================================================== -->
+
+        <section class="discover section" id="discover">
+            <h2 class="section-title">Discover The Most<br>Beautiful Places</h2>
+
+            <div class="discover-container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="discover-card swiper-slide">
+                        <img src="assests/discover-1.jpg" alt="" class="discover-img">
+                        <div class="discover-data">
+                            <h2 class="discover-title">Bali</h2>
+                            <span class="discover-description">24 Tours Available</span>
+                        </div>
+                    </div>
+                    <div class="discover-card swiper-slide">
+                        <img src="assests/discover-2.jpg" alt="" class="discover-img">
+                        <div class="discover-data">
+                            <h2 class="discover-title">Turkey</h2>
+                            <span class="discover-description">14 Tours Available</span>
+                        </div>
+                    </div>
+                    <div class="discover-card swiper-slide">
+                        <img src="assests/discover-3.jpg" alt="" class="discover-img">
+                        <div class="discover-data">
+                            <h2 class="discover-title">Jordan</h2>
+                            <span class="discover-description">20 Tours Available</span>
+                        </div>
+                    </div>
+                    <div class="discover-card swiper-slide">
+                        <img src="assests/discover-4.jpg" alt="" class="discover-img">
+                        <div class="discover-data">
+                            <h2 class="discover-title">Italy</h2>
+                            <span class="discover-description">12 Tours Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience section">
+            <h2 class="section-title">With Our Experience<br>We will Serve You the Best</h2>
+
+            <div class="experience-container container grid">
+                <div class="experience-content grid">
+                    <div class="experience-data">
+                        <h2 class="experience-number">20</h2>
+                        <span class="experience-description">Year<br>Experience</span>
+                    </div>
+
+                    <div class="experience-data">
+                        <h2 class="experience-number">75</h2>
+                        <span class="experience-description">Complete<br>Tours</span>
+                    </div>
+
+                    <div class="experience-data">
+                        <h2 class="experience-number">650+</h2>
+                        <span class="experience-description">Tourist<br>Destination</span>
+                    </div>
+                </div>
+
+                <div class="experience-img grid">
+                    <div class="experience-overlay">
+                        <img src="assests/experience-1.jpg" alt="" class="experience-img-one">
+                    </div>
+
+                    <div class="experience-overlay">
+                        <img src="assests/experience-2.jpg" alt="" class="experience-img-two">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="video section">
+            <h2 class="section-title">Video Tour</h2>
+
+            <div class="video-container container">
+                <p class="video-description">Find out more with our video tour and choose the best for your family and
+                    friends</p>
+
+                <div class="video-content">
+                    <video id="video-file">
+                        <source src="assests/video.mp4" type="video/mp4">
+                    </video>
+
+                    <button class="button button--flex video-button" id="video-button">
+                        <i class="ri-play-line video-button-icon" id="video-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="destination section" id="destination">
+            <h2 class="section-title">Choose Your Destination</h2>
+
+            <div class="destination-container container grid">
+                <div class="destination-card">
+                    <img src="assests/dest-1.jpg" alt="" class="destination-img">
+
+                    <div class="destination-content">
+                        <span class="destination-rating">
+                            <i class="ri-heart-line destination-rating-icon"></i>
+                            <span class="destination-rating-number">8,5</span>
+                        </span>
+
+                        <div class="destination-data">
+                            <h3 class="destination-title">Bali</h3>
+                            <span class="destination-subtitle">Indonesia</span>
+                            <span class="destination-price">Rs.3499</span>
+                        </div>
+                    </div>
+
+                    <button class="button--flex destination-button button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <div class="destination-card">
+                    <img src="assests/dest-2.jpg" alt="" class="destination-img">
+
+                    <div class="destination-content">
+                        <span class="destination-rating">
+                            <i class="ri-heart-line destination-rating-icon"></i>
+                            <span class="destination-rating-number">9,6</span>
+                        </span>
+
+                        <div class="destination-data">
+                            <h3 class="destination-title">Rome</h3>
+                            <span class="destination-subtitle">Italy</span>
+                            <span class="destination-price">Rs.6499</span>
+                        </div>
+                    </div>
+
+                    <button class="button--flex destination-button button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <div class="destination-card">
+                    <img src="assests/dest-3.jpg" alt="" class="destination-img">
+
+                    <div class="destination-content">
+                        <span class="destination-rating">
+                            <i class="ri-heart-line destination-rating-icon"></i>
+                            <span class="destination-rating-number">7,5</span>
+                        </span>
+
+                        <div class="destination-data">
+                            <h3 class="destination-title">Petra</h3>
+                            <span class="destination-subtitle">Jordan</span>
+                            <span class="destination-price">Rs.8800</span>
+                        </div>
+                    </div>
+
+                    <button class="button--flex destination-button button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <div class="destination-card">
+                    <img src="assests/dest-4.jpg" alt="" class="destination-img">
+
+                    <div class="destination-content">
+                        <span class="destination-rating">
+                            <i class="ri-heart-line destination-rating-icon"></i>
+                            <span class="destination-rating-number">8,7</span>
+                        </span>
+
+                        <div class="destination-data">
+                            <h3 class="destination-title">Zurich</h3>
+                            <span class="destination-subtitle">Switzerland</span>
+                            <span class="destination-price">Rs.9099</span>
+                        </div>
+                    </div>
+
+                    <button class="button--flex destination-button button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <div class="destination-card">
+                    <img src="assests/dest-5.jpg" alt="" class="destination-img">
+
+                    <div class="destination-content">
+                        <span class="destination-rating">
+                            <i class="ri-heart-line destination-rating-icon"></i>
+                            <span class="destination-rating-number">6,6</span>
+                        </span>
+
+                        <div class="destination-data">
+                            <h3 class="destination-title">Berlin</h3>
+                            <span class="destination-subtitle">Germany</span>
+                            <span class="destination-price">Rs.6799</span>
+                        </div>
+                    </div>
+
+                    <button class="button--flex destination-button button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe section">
+            <div class="subscribe-bg">
+                <div class="subscribe-container container">
+                    <h2 class="section-title subscribe-title">Subscribe to Our<br>Newsletter</h2>
+                    <p class="subscribe-description">Subscribe to our newsletter and get extra special discounts</p>
+
+                    <form action="" class="subscribe-form">
+                        <input type="text" placeholder="Enter your email address" class="subscribe-input">
+                        <button class="button subscribe-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer section">
+        <div class="footer-container container grid">
+            <div class="footer-content grid">
+                <div class="footer-data">
+                    <h3 class="footer-title">TravelFast</h3>
+                    <p class="footer-description">You choose the <br>destination we offer you the<br>experience</p>
+
+                    <div>
+                        <a href="" target="_blank" class="footer-social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social">
+                            <i class="ri-twitter-x-fill"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer-social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">About</h3>
+
+                    <ul>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">About Us</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Features</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Company</h3>
+
+                    <ul>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Team</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Plan y pricing</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-data">
+                    <h3 class="footer-subtitle">Support</h3>
+
+                    <ul>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">FAQs</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Support Center</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-rights">
+                <p class="footer-copy">&#169; 2024 xyz. All rights reserved.</p>
+                <div class="footer-terms">
+                    <a href="#" class="footer-terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer-terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ====SCROLL UP========================================================================= -->
+
+    <a href="#" class="scroll-up" id="scroll-up">
+        <i class="ri-arrow-up-line scroll-up-icon"></i>
+    </a>
+
+
+    <!--=====SCROLL REVEAL JS=====================================================-->
+    <script src="scrollreveal.min.js"></script>
+
+    <!--=====SWIPER JS=====================================================-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--=====MAIN JS=====================================================-->
+    <script src="app.js"></script>
+
+</body>
+
+</html>
